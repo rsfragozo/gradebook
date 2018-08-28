@@ -1,8 +1,10 @@
 var gradeBook = require('./lib/gradeBook').gradeBook;
+var express = require("express");
+var app = express();
 
-for (var i = 2; i < process.argv.length; i++) {
-    gradeBook.addGrade(parseInt(process.argv[i]));
-}
+app.get("/", function(req, res) {
+    res.send("Hello world!");
+});
 
-console.log(gradeBook.getAverage());
-console.log(gradeBook.getLetterGrade());
+app.listen(3000);
+console.log("Server is running and listening to port 3000...");

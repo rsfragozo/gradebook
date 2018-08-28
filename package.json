@@ -12,5 +12,8 @@
   },
   "author": "Rodrigo Soares Fragozo",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

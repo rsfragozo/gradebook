@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Grade book",
   "main": "index.js",
-  "repository": "git@github.com:rsfragozo/gradebook.git",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rsfragozo/gradebook.git"
+  },
   "author": "Rodrigo Soares Fragozo",
   "license": "MIT",
   "private": false

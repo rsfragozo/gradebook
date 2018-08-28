@@ -4,6 +4,7 @@
   "description": "Grade book",
   "main": "index.js",
   "scripts": {
+    "serve": "node index.js",
     "test": "nodeunit test"
   },
   "repository": {
